@@ -1,0 +1,16 @@
+# creating a correlation matrix in python... 
+# importing pandas as pd...
+import pandas as pd
+
+# creates dataset...
+# https://bit.ly/2KF29Bd
+df = pd.DataFrame({
+    "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "y": [5, 10, 10, 15, 14, 15, 19, 18, 25, 23]
+})
+
+# derive coeff_determination as df. ...
+coeff_determination = df.corr(method="pearson") ** 2
+
+# prints correlation between variables...
+print(coeff_determination)
