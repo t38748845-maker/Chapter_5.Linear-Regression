@@ -1,0 +1,29 @@
+# calculating the standard error of the estimate...
+# importing pandas as pd... 
+import pandas as pd
+
+# importing sqrt from math...
+from math import sqrt
+
+# Create the dataset...
+# https://bit.ly/3go0Ant
+df = pd.DataFrame({
+    "x": [1,2,3,4,5,6,7,8,9,10],
+    "y": [5,10,10,15,14,15,19,18,25,23]
+})
+
+# load the data...
+points = list(df.itertuples(index=False))
+
+# n for length of points...
+n = len(points)
+
+# ression line...
+m = 1.939
+b = 4.733
+
+# calculates standard error of estimate...
+S_e = sqrt((sum((p.y - (m * p.x + b)) ** 2 for p in points)) / (n - 2))
+
+# prints standard error of estimate...
+print(S_e)
