@@ -6,7 +6,7 @@ import pandas as pd
 from math import sqrt
 
 # Create the dataset...
-# https://bit.ly/3go0Ant
+# https://bit.ly/2KF29Bd
 df = pd.DataFrame({
     "x": [1,2,3,4,5,6,7,8,9,10],
     "y": [5,10,10,15,14,15,19,18,25,23]
