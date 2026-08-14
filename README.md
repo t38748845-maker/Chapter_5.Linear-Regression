@@ -30,7 +30,7 @@
 
 <br clear="both">
 
-<p data-importer="text" align="left">I am working on essential maths learners for data scientist.</p>
+<p data-importer="text" align="left">I am working on essential maths learners for data science.</p>
 
 ###
 
