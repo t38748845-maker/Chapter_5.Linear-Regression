@@ -6,7 +6,7 @@
 
 ###
 
-<h2 data-importer="text" align="center">𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 𝚃𝚛𝚞𝚜𝚑𝚗𝚊𝚗𝚊𝚗𝚍.</h2>
+<h2 data-importer="text" align="center"> 𝚃𝚛𝚞𝚜𝚑𝚗𝚊𝚗𝚊𝚗𝚍 </h2>
 
 ###
 
@@ -30,7 +30,7 @@
 
 <br clear="both">
 
-<p data-importer="text" align="left">I am working on essential maths learners for data science.</p>
+<p data-importer="text" align="left">I am working on essential maths learners for data scientist.</p>
 
 ###
 
